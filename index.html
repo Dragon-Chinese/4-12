@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style>
+			* {
+				margin: 0;
+				padding: 00px;
+				list-style: none;
+				font-size: 14px;
+			}
+			
+			body,
+			html,
+			.wrap {
+				height: 100%;
+				width: 100%;
+				overflow: hidden;
+			}
+			
+			.wrap {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.header {
+				height: 120px;
+				width: 100%;
+				background: red;
+			}
+			
+			.main {
+				flex: 1;
+				width: 100%;
+			}
+			
+			.footer {
+				height: 50px;
+				background: lightblue;
+			}
+			
+			.head-top {
+				height: 60px;
+				width: 100%;
+				background: #f3f3f3;
+				display: flex;
+				line-height: 60px;
+			}
+			
+			.head-top span {
+				flex: 1;
+				text-align: center;
+			}
+			.head-top span input {
+				border-radius: 10px;
+				outline-style: none;
+				padding-left: 10px;
+			}
+			.head-bot ul {
+				display: flex;
+				line-height: 60px;
+			}
+			.head-bot ul li {
+				flex: 1;
+				text-align: center;
+				background: #f2f2f2;
+				border-top: 2px solid black;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<header class="header">
+				<div class="head-top">
+					<span>
+						北京↓
+					</span>
+					<span>
+						<input type="text" />
+					</span>
+					<span>
+						<i></i>
+					</span>
+				</div>
+				<div class="head-bot">
+						<ul>
+							<li>智能筛选</li>
+							<li>排序</li>
+							<li>品牌</li>
+							<li>价格</li>
+						</ul>
+				</div>
+			</header>
+			<main class="main">
+
+			</main>
+			<footer class="footer">
+
+			</footer>
+		</div>
+	</body>
+
+</html>
